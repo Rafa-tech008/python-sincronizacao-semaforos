@@ -47,9 +47,9 @@ def treino (equipe, indent):
                 acum += temp
                 time.sleep (0.05)
                 volta += 1
-                print (f"A {equipe} do carro {indent} percorre a {volta} voltas em {acum}s")
-                vetor [idx]= 0        
-            print (f"A {equipe} do carro {indent} finalizou as {voltas} voltas em {acum}s")
+                print (f"A {equipe} do carro {indent} percorre a volta {volta} em {acum}s")
+            vetor [idx]= 0        
+            print (f"A {equipe} do carro {indent} finalizou a volta {voltas} em {acum}s")
         
               
             
